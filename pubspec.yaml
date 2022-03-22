@@ -36,6 +36,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   http: ^0.13.4
   google_fonts: ^2.3.0
+  carousel_slider: ^4.0.0
+  timeago: ^3.2.2
 
 dev_dependencies:
   flutter_test:
