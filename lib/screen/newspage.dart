@@ -18,7 +18,7 @@ class _NewsPageState extends State<NewsPage> {
     return SingleChildScrollView(
       child: Column(
         children: [
-          Padding(padding: EdgeInsets.only(left: 10),
+          Padding(padding: const EdgeInsets.only(left: 10),
           child: Text('Breaking News', style: tittleHome,)),
           CarouselWidget(articleList: widget.article),
           TabBarMenu(article: widget.article)
