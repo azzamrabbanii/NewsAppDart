@@ -38,6 +38,7 @@ dependencies:
   google_fonts: ^2.3.0
   carousel_slider: ^4.0.0
   timeago: ^3.2.2
+  bubble_tab_indicator: ^0.1.6
 
 dev_dependencies:
   flutter_test:
