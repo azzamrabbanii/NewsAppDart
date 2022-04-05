@@ -69,6 +69,7 @@ class _TabBarMenuState extends State<TabBarMenu> with SingleTickerProviderStateM
             labelColor: Colors.deepOrangeAccent,
             unselectedLabelColor: Colors.black,
             indicatorSize: TabBarIndicatorSize.tab,
+            isScrollable: true,
             indicator: const BubbleTabIndicator(
                 indicatorColor: Colors.black,
                 indicatorHeight: 30,
@@ -86,7 +87,7 @@ class _TabBarMenuState extends State<TabBarMenu> with SingleTickerProviderStateM
                       builder: (context, snapshot) =>
                       snapshot.data != null
                           ? _listNewsCategory(snapshot.data as List<Article>)
-                          : const Center(child: const CircularProgressIndicator()));
+                          : const Center(child: CircularProgressIndicator()));
                 }).toList()),
           )
         ],

@@ -17,8 +17,7 @@ class Article {
   String publishedAt;
   String content;
 
-  factory Article.fromJson(Map<String, dynamic> json) =>
-      Article(
+  factory Article.fromJson(Map<String, dynamic> json) => Article(
         author: json["author"] ?? 'null',
         title: json["title"] ?? 'null',
         description: json["description"] ?? 'null',
